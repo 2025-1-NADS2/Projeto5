@@ -7,6 +7,9 @@
 ## Integrantes:  
 <a href="https://www.linkedin.com/in/caio-dantas-5bb171329/">Caio Dantas Farias</a>, Kauã Ferreira, <a href="https://www.linkedin.com/in/saulo-santos-a1ba86334/">Saulo Ribeiro Santos</a>, <a href="https://www.linkedin.com/in/caio-gomes-889178248/">Caio dos Santos Gomes</a>.
 
+## Professores Orientadores:
+Dr.Vitor Rosseti
+
 
 ## Dashboard de Gestão - Instituto Criativo
 
