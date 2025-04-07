@@ -20,6 +20,11 @@
   Origem da imagem: <a href="https://www.institutocriativo.com.br/">Instituto Criativo</a> <a rel="license" href="https://www.institutocriativo.com.br/">
 </p>
 
+
+O Instituto Criativo propõe o desenvolvimento de um dashboard de gestão com o objetivo de centralizar e organizar suas atividades, desafios e projetos. A aplicação permitirá o acompanhamento em tempo real das iniciativas, oferecendo relatórios automáticos e indicadores de desempenho (KPIs) que auxiliarão na análise estratégica e na tomada de decisões. Além de otimizar a gestão interna, o painel visa melhorar a comunicação entre estudantes, educadores e parceiros, promovendo maior eficiência, transparência e colaboração em todas as frentes da instituição.
+
+Diante do cenário atual de gestão descentralizada, a ferramenta surge como uma solução prática e moderna, utilizando tecnologias como .NET, React e MySQL. Entre suas funcionalidades, destacam-se a visualização de cronogramas, rastreamento de progresso, notificações, personalização de relatórios e integração com APIs de redes sociais. O público-alvo inclui gestores, educadores e parceiros externos, que poderão acessar dados consolidados e alinhados com os objetivos institucionais, fortalecendo o impacto das ações educacionais promovidas pelo Instituto Criativo.
+
 ## 🛠 <b>Estrutura de pastas</b>
 
 -Raiz<br>
