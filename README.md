@@ -16,7 +16,7 @@
 ## Dashboard de Gestão - Instituto Criativo
 
 <p align="center">
-<img src = "https://uploads-ssl.webflow.com/60fc6fd742d40922fd276ea8/619d15d412c8a57be7d11c36_Graph%20image%20BR%20IC.jpg"
+<img src = "https://uploads-ssl.webflow.com/60fc6fd742d40922fd276ea8/619d15d412c8a57be7d11c36_Graph%20image%20BR%20IC.jpg">
   Origem da imagem: <a href="https://www.institutocriativo.com.br/">Instituto Criativo</a> <a rel="license" href="https://www.institutocriativo.com.br/">
 </p>
 
