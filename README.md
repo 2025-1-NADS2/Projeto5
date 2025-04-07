@@ -20,4 +20,17 @@
   Origem da imagem: <a href="https://www.institutocriativo.com.br/">Instituto Criativo</a> <a rel="license" href="https://www.institutocriativo.com.br/">
 </p>
 
-  </p>
+## 🛠 <b>Estrutura de pastas</b>
+
+-Raiz<br>
+|<br>
+|-->Documentos<br>
+  &emsp;|-->Entrega 1<br>
+  &emsp;|-->Entrega 2<br>
+  &emsp;|-->Entrega 3<br>
+  &emsp;|-->Entrega 4<br>
+|-->Imagens<br>
+|-->SRC<br>
+  &emsp;|-->Frontend<br>
+  &emsp;|-->Backend<br>
+|readme.md<br>
