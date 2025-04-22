@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventos - Instituto Criativo</title>
+  <!-- Vinculando o CSS -->
+  <link rel="stylesheet" href="eventos.css" />
+  <!-- Importação das fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Inter:wght@400;700&family=Chivo:wght@400;700&family=Kanit:wght@700&family=Chenla&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Cabeçalho (igual às outras páginas) -->
+  <header class="header">
+    <div class="logo-container">
+      <h1 class="instituto-title">Instituto Criativo</h1>
+      <p class="instituto-subtitle">Educação criativa e inovadora</p>
+    </div>
+    <nav class="menu">
+      <a href="visao-geral.html">Visão Geral</a>
+      <a href="eventos.html">Eventos</a>
+      <a href="adicionar-eventos.html">Adicionar Evento</a>
+      <a href="inicio.html" class="logout">Sair</a>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="main-content">
+    <!-- Controles: Pesquisa e Ordenação -->
+    <section class="controls">
+      <input type="text" id="searchBar" placeholder="Buscar eventos..." />
+      <select id="sortOptions">
+        <option value="status">Status</option>
+        <option value="date">Data</option>
+      </select>
+    </section>
+    
+    <!-- Legenda dos Status -->
+    <section class="legend">
+      <div class="legend-item">
+        <span class="legend-color" style="background: #FACB24;"></span>
+        <span class="legend-text">Em Planejamento</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color" style="background: #12BD38;"></span>
+        <span class="legend-text">Em Andamento</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-color" style="background: #1916D8;"></span>
+        <span class="legend-text">Finalizado</span>
+      </div>
+    </section>
+
+    <!-- Lista de Eventos (cada evento é um link que leva à página de detalhes) -->
+    <section class="events-list">
+      <!-- Evento 1 -->
+      <a href="evento-detalhe.html?event=11111" class="event-link">
+        <div class="event-item" data-status="planejado">
+          <h2 class="evento-title">Evento 1</h2>
+          <p class="event-date">Data: <span class="date">28/04/2025</span></p>
+          <p class="event-address">Rua Local, 123 - Bairro - Cidade - UF</p>
+          <p class="event-organizers">Pessoa1, Pessoa2, Pessoa3, Pessoa4</p>
+          <p class="event-company">Empresa 1</p>
+          <p class="event-number">#11111</p>
+        </div>
+      </a>
+      
+      <!-- Evento 3 -->
+      <a href="evento-detalhe.html?event=33333" class="event-link">
+        <div class="event-item" data-status="em andamento">
+          <h2 class="evento-title">Evento 3</h2>
+          <p class="event-date">Data: <span class="date">18/05/2025</span></p>
+          <p class="event-address">Rua Local, 123 - Bairro - Cidade - UF</p>
+          <p class="event-organizers">Pessoa1, Pessoa2, Pessoa3, Pessoa4</p>
+          <p class="event-company">Empresa 3</p>
+          <p class="event-number">#33333</p>
+        </div>
+      </a>
+      
+      <!-- Evento 2 -->
+      <a href="evento-detalhe.html?event=22222" class="event-link">
+        <div class="event-item" data-status="planejado">
+          <h2 class="evento-title">Evento 2</h2>
+          <p class="event-date">Data: <span class="date">05/05/2025</span></p>
+          <p class="event-address">Rua Local, 123 - Bairro - Cidade - UF</p>
+          <p class="event-organizers">Pessoa1, Pessoa2, Pessoa3, Pessoa4</p>
+          <p class="event-company">Empresa 2</p>
+          <p class="event-number">#22222</p>
+        </div>
+      </a>
+      
+      <!-- Evento 4 -->
+      <a href="evento-detalhe.html?event=44444" class="event-link">
+        <div class="event-item" data-status="concluido">
+          <h2 class="evento-title">Evento 4</h2>
+          <p class="event-date">Data: <span class="date">02/06/2025</span></p>
+          <p class="event-address">Rua Local, 123 - Bairro - Cidade - UF</p>
+          <p class="event-organizers">Pessoa1, Pessoa2, Pessoa3, Pessoa4</p>
+          <p class="event-company">Empresa 4</p>
+          <p class="event-number">#44444</p>
+        </div>
+      </a>
+    </section>
+    
+    <!-- Paginação -->
+    <section class="paginacao">
+      <a href="#" class="pagina-numero">1</a>
+      <a href="#" class="pagina-numero">2</a>
+      <a href="#" class="pagina-numero">3</a>
+    </section>
+  </main>
+
+  <!-- Rodapé (idem às outras páginas) -->
+  <footer class="footer">
+    <p>&copy; 2025 Instituto Criativo</p>
+  </footer>
+
+  <!-- Chamada do JavaScript -->
+  <script src="eventos.js"></script>
+</body>
+</html>

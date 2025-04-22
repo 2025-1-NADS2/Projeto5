@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Finalizado - Instituto Criativo</title>
+    <link rel="stylesheet" href="cadastro-finalizado.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo-container">
+            <h1 class="instituto-title">Instituto Criativo</h1>
+            <p class="instituto-subtitle">Educação criativa e inovadora</p>
+        </div>
+    </header>
+
+    <!-- Mensagem de Confirmação -->
+    <main class="confirmation-container">
+        <h2 class="confirmation-title">Cadastro enviado com sucesso!</h2>
+        <p class="confirmation-message">
+            Agradecemos pelo envio de suas informações.<br>
+            Informamos que seu cadastro será cuidadosamente analisado por nossa equipe responsável. Após a análise, uma mensagem será encaminhada para o endereço de e-mail informado no cadastro.<br>
+            Solicitamos que acompanhe sua caixa de entrada, incluindo a pasta de spam, para não perder nossa comunicação.
+        </p>
+        <button onclick="redirectToHome()" class="btn-ok">OK</button>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2025 Instituto Criativo</p>
+    </footer>
+
+    <script>
+        // Função para redirecionar à página inicial
+        function redirectToHome() {
+            window.location.href = "inicio.html";
+        }
+    </script>
+</body>
+</html>
