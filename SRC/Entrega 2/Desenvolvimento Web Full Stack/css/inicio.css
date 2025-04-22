@@ -1,0 +1,155 @@
+/* Estilização Geral */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-image: url('imagens/arte3.png'); /* Caminho para a imagem de fundo */
+  background-size: cover; /* Faz com que a imagem cubra todo o espaço visível */
+  background-position: center; /* Centraliza a imagem no fundo */
+  background-repeat: no-repeat; /* Evita repetição da imagem */
+  background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
+  color: #FFFFFF; /* Texto em branco para contraste */
+}
+
+/* Cabeçalho */
+.header {
+  width: 100%;
+  height: 96px;
+  background-color: rgba(250, 36, 72, 0.9); /* Fundo com opacidade */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Logo centralizada no topo *
+.logo-top-center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px; 
+}                
+
+.header-image {
+  width: 120px;
+  height: auto;
+}
+
+
+ 
+
+.logo-centralizada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: -30px;
+}
+
+.logo-centralizada img {
+  width: 60px;
+  height: auto;
+}
+
+ * /
+
+/* Título e subtítulo do instituto */
+.instituto-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin: auto;
+}
+
+.instituto-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  color: #FFFFFF;
+  margin-top: 3px;
+}
+
+/* Botão "Colaboradores" */
+.collaborators-badge {
+  font-family: 'Inter', sans-serif;
+  font-size: 8px;
+  font-weight: 250;
+  color: transparent;
+  -webkit-text-stroke: 0.5px black;
+  background-color: white;
+  padding: 2px 8px;
+  border-radius: 15px;
+  display: inline-block;
+  position: absolute;
+  top: 52px;
+  left: 168px;
+  transform: translateY(-50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Botão de Login */
+.btn-login {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #FF2448;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+  background-color: #C91C38;
+}
+
+/* Conteúdo Principal */
+.banner-container {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  margin: 50px auto;
+  max-width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.banner-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #FF2448;
+}
+
+.banner-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #313131;
+}
+
+.badge {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #FF2448;
+  padding: 10px 20px;
+  border-radius: 25px;
+  display: inline-block;
+}
+
+/* Rodapé */
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #FA2448;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  z-index: 1000;
+}
