@@ -43,13 +43,3 @@ JWT_SECRET=secret
 ### 10. Inicie o servidor de desenvolvimento: npm run dev
 
 ### 11. Acesse a aplicação no navegador: Ao segurar a tecla CTRL e apertar com o botão esquerdo do mouse no URL informado
-
-## Sistema em Funcionamento:
-
-<img src="Projeto5/Imagens/icprint2.png"/>
-
-<img src="Imagens/icprint1.png"/>
-
-<img src="Imagens/icprint4.png"/>
-
-<img src="Imagens/icprint3.png"/>
