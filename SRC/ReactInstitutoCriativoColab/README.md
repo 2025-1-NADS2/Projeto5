@@ -46,8 +46,7 @@ JWT_SECRET=secret
 
 ## Sistema em Funcionamento:
 
-<img src="Projeto5/Imagens
-/icprint2.png"/>
+<img src="Projeto5/Imagens/icprint2.png"/>
 
 <img src="Imagens/icprint1.png"/>
 
